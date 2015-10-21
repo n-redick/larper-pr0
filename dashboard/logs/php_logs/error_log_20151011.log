@@ -1,0 +1,30 @@
+[11-Oct-2015 11:03:46 Europe/Berlin] PHP Warning:  mysql_connect(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[11-Oct-2015 11:03:46 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 70
+[11-Oct-2015 11:03:46 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[11-Oct-2015 11:03:46 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[11-Oct-2015 11:03:46 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[11-Oct-2015 11:03:48 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[11-Oct-2015 11:03:48 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[11-Oct-2015 11:03:48 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[11-Oct-2015 11:03:48 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[11-Oct-2015 11:03:48 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[11-Oct-2015 11:03:50 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[11-Oct-2015 11:03:50 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[11-Oct-2015 11:03:50 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[11-Oct-2015 11:03:50 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[11-Oct-2015 11:03:50 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[11-Oct-2015 11:04:50 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 11:04:50 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 11:04:50 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 11:04:50 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 11:04:50 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 11:04:50 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 16:31:43 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 16:31:43 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 16:31:43 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 16:31:43 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 16:31:43 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41
+[11-Oct-2015 16:31:43 Europe/Berlin] PHP Notice:  Undefined variable: s_controll in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 41

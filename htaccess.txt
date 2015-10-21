@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+Options -Indexes
+
+# These folders will not be touched.
+RewriteEngine On
+RewriteCond %{REQUEST_URI} "/forum/" [OR]
+RewriteCond %{REQUEST_URI} "/wiki/" [OR]
+RewriteCond %{REQUEST_URI} "/awiki/" [OR]
+RewriteCond %{REQUEST_URI} "/shop/" [OR]
+RewriteCond %{REQUEST_URI} "/css/" [OR]
+RewriteCond %{REQUEST_URI} "/js/" [OR]
+RewriteCond %{REQUEST_URI} "/img/"
+RewriteRule (.*) $1 [L]
+
+# Then have your redirect rule
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9-/_]+)$ /index.php?url=$1 [NC,L]

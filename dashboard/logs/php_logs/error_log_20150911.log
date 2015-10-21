@@ -1,0 +1,20 @@
+[11-Sep-2015 09:41:31 Europe/Berlin] PHP Warning:  mysql_connect(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[11-Sep-2015 09:41:31 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 70
+[11-Sep-2015 09:41:33 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[11-Sep-2015 09:41:33 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[11-Sep-2015 09:41:33 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 99
+[11-Sep-2015 09:41:33 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[11-Sep-2015 09:41:33 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 103
+[11-Sep-2015 22:26:41 Europe/Berlin] PHP Notice:  Undefined variable: s_action in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 61
+[11-Sep-2015 22:26:41 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 108
+[11-Sep-2015 22:26:41 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 112
+[11-Sep-2015 22:26:54 Europe/Berlin] PHP Notice:  Undefined variable: s_action in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 61
+[11-Sep-2015 22:26:54 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 108
+[11-Sep-2015 22:26:54 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 112
+[11-Sep-2015 22:29:13 Europe/Berlin] PHP Notice:  Undefined variable: s_action in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 64
+[11-Sep-2015 22:29:13 Europe/Berlin] PHP Notice:  Undefined variable: s_action in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 75
+[11-Sep-2015 22:33:09 Europe/Berlin] PHP Notice:  Undefined variable: s_username in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 8
+[11-Sep-2015 22:34:30 Europe/Berlin] PHP Notice:  Undefined variable: s_username in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 8
+[11-Sep-2015 22:34:55 Europe/Berlin] PHP Notice:  Undefined variable: s_username in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 8

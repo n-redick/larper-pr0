@@ -1,0 +1,18 @@
+[09-Oct-2015 09:07:06 Europe/Berlin] PHP Warning:  mysql_connect(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[09-Oct-2015 09:07:06 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 70
+[09-Oct-2015 09:07:06 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[09-Oct-2015 09:07:06 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[09-Oct-2015 09:07:06 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[09-Oct-2015 09:07:08 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[09-Oct-2015 09:07:08 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[09-Oct-2015 09:07:08 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[09-Oct-2015 09:07:08 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[09-Oct-2015 09:07:08 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[09-Oct-2015 09:07:10 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[09-Oct-2015 09:07:10 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[09-Oct-2015 09:07:10 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[09-Oct-2015 09:07:10 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[09-Oct-2015 09:07:10 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102

@@ -1,0 +1,10 @@
+[10-Sep-2015 09:06:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 68
+[10-Sep-2015 16:14:14 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 48
+[10-Sep-2015 16:14:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 49
+[10-Sep-2015 16:15:17 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 49
+[10-Sep-2015 16:16:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 49
+[10-Sep-2015 16:16:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 49
+[10-Sep-2015 16:17:32 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 49
+[10-Sep-2015 16:18:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 49
+[10-Sep-2015 16:18:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 49
+[10-Sep-2015 16:19:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_library.php on line 49

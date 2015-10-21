@@ -1,0 +1,33 @@
+[06-Oct-2015 00:11:35 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:11:36 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:11:36 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:11:36 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:11:36 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:11:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 32
+[06-Oct-2015 00:12:39 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:12:39 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:12:39 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:12:39 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:12:39 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:12:39 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 32
+[06-Oct-2015 00:13:28 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:13:28 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:13:28 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:13:28 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:13:28 Europe/Berlin] PHP Notice:  Undefined index: core in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 00:17:03 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 33
+[06-Oct-2015 00:17:03 Europe/Berlin] PHP Warning:  Illegal string offset 'core_module' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 34
+[06-Oct-2015 08:23:21 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 34
+[06-Oct-2015 08:23:21 Europe/Berlin] PHP Warning:  Illegal string offset 'core_module' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 08:25:05 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 34
+[06-Oct-2015 08:25:05 Europe/Berlin] PHP Warning:  Illegal string offset 'core_module' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 08:26:39 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 34
+[06-Oct-2015 08:26:39 Europe/Berlin] PHP Warning:  Illegal string offset 'core_module' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 08:26:53 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 34
+[06-Oct-2015 08:26:53 Europe/Berlin] PHP Warning:  Illegal string offset 'core_module' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 08:28:39 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 34
+[06-Oct-2015 08:28:39 Europe/Berlin] PHP Warning:  Illegal string offset 'core_module' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 08:29:30 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 34
+[06-Oct-2015 08:29:30 Europe/Berlin] PHP Warning:  Illegal string offset 'core_module' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35
+[06-Oct-2015 08:29:40 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 34
+[06-Oct-2015 08:29:40 Europe/Berlin] PHP Warning:  Illegal string offset 'core_module' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\module_manager\view\view_module_manager.php on line 35

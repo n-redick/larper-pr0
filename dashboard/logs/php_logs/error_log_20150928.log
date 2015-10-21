@@ -1,0 +1,26 @@
+[28-Sep-2015 08:45:07 Europe/Berlin] PHP Warning:  mysql_connect(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[28-Sep-2015 08:45:07 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 70
+[28-Sep-2015 08:45:09 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[28-Sep-2015 08:45:09 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[28-Sep-2015 08:45:09 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[28-Sep-2015 08:45:09 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[28-Sep-2015 08:45:09 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[28-Sep-2015 08:45:11 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[28-Sep-2015 08:45:11 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[28-Sep-2015 08:45:11 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[28-Sep-2015 08:45:11 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[28-Sep-2015 08:45:11 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[28-Sep-2015 11:06:46 Europe/Berlin] PHP Fatal error:  Class 'view_dashboard' not found in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\dashboard.php on line 47
+[28-Sep-2015 12:48:29 Europe/Berlin] PHP Notice:  Undefined variable: a_array in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 136
+[28-Sep-2015 12:48:29 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 73
+[28-Sep-2015 12:49:31 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 57
+[28-Sep-2015 12:54:14 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 56
+[28-Sep-2015 22:22:12 Europe/Berlin] PHP Warning:  require_once(D:\development\xampp\htdocs\larper-pr0\dashboard/lib/library-files/tracker_library.php): failed to open stream: No such file or directory in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 80
+[28-Sep-2015 22:22:12 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'D:\development\xampp\htdocs\larper-pr0\dashboard/lib/library-files/tracker_library.php' (include_path='.;D:\development\xampp\php\PEAR') in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 80
+[28-Sep-2015 22:22:36 Europe/Berlin] PHP Notice:  Undefined index: HTTP_REFERER in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\tracking_library.php on line 18
+[28-Sep-2015 22:22:36 Europe/Berlin] PHP Strict Standards:  mktime(): You should be using the time() function instead in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\tracking_library.php on line 19
+[28-Sep-2015 22:58:40 Europe/Berlin] PHP Warning:  Division by zero in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 33
+[28-Sep-2015 23:22:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 35

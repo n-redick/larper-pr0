@@ -1,0 +1,42 @@
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 131
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 131
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 131
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 00:13:37 Europe/Berlin] PHP Notice:  Undefined variable: i_month in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 142
+[29-Sep-2015 09:20:36 Europe/Berlin] PHP Warning:  mysql_connect(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[29-Sep-2015 09:20:36 Europe/Berlin] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 70
+[29-Sep-2015 09:20:36 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[29-Sep-2015 09:20:36 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[29-Sep-2015 09:20:36 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[29-Sep-2015 09:20:38 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[29-Sep-2015 09:20:38 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[29-Sep-2015 09:20:38 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[29-Sep-2015 09:20:38 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[29-Sep-2015 09:20:38 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[29-Sep-2015 09:20:40 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+ in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[29-Sep-2015 09:20:40 Europe/Berlin] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 59
+[29-Sep-2015 09:20:40 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 98
+[29-Sep-2015 09:20:40 Europe/Berlin] PHP Warning:  mysql_error() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 101
+[29-Sep-2015 09:20:40 Europe/Berlin] PHP Warning:  mysql_errno() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 102
+[29-Sep-2015 09:53:29 Europe/Berlin] PHP Notice:  Undefined index: visitors in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 58
+[29-Sep-2015 09:54:45 Europe/Berlin] PHP Notice:  Undefined index: visitors in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 67
+[29-Sep-2015 09:55:24 Europe/Berlin] PHP Notice:  Undefined index: visitors in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 67
+[29-Sep-2015 10:22:57 Europe/Berlin] PHP Notice:  Undefined index: {[navigation]} in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 23
+[29-Sep-2015 10:36:03 Europe/Berlin] PHP Notice:  Undefined index: permissions in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[29-Sep-2015 10:36:03 Europe/Berlin] PHP Notice:  Undefined index: permissions in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[29-Sep-2015 14:58:42 Europe/Berlin] PHP Fatal error:  Call to undefined method dashboard_library::_generate_arrow() in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 114
+[29-Sep-2015 14:59:06 Europe/Berlin] PHP Fatal error:  Call to private method dashboard_library::_generate_arrow() from context 'view_dashboard' in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 114
+[29-Sep-2015 15:31:12 Europe/Berlin] PHP Notice:  Undefined property: dashboard_library::$o_dashboard_lib in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\dashboard_library.php on line 23
+[29-Sep-2015 15:31:12 Europe/Berlin] PHP Fatal error:  Call to a member function _get_visitors_count() on a non-object in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\dashboard_library.php on line 23
+[29-Sep-2015 15:31:54 Europe/Berlin] PHP Fatal error:  Call to undefined method dashboard_library::generate_arrow() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\dashboard_library.php on line 27
+[29-Sep-2015 15:42:21 Europe/Berlin] PHP Fatal error:  Call to undefined function math() in D:\development\xampp\htdocs\larper-pr0\dashboard\core\dashboard\view\view_dashboard.php on line 89

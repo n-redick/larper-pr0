@@ -1,0 +1,193 @@
+[13-Sep-2015 00:11:40 Europe/Berlin] PHP Warning:  mysql_connect(): MySQL server has gone away in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[13-Sep-2015 00:11:40 Europe/Berlin] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=2364 in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[13-Sep-2015 00:11:40 Europe/Berlin] PHP Warning:  mysql_connect(): MySQL server has gone away in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[13-Sep-2015 00:11:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[13-Sep-2015 00:17:18 Europe/Berlin] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 106
+[13-Sep-2015 00:17:18 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 108
+[13-Sep-2015 00:17:18 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 112
+[13-Sep-2015 00:17:40 Europe/Berlin] PHP Notice:  Undefined index: pwd in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 11
+[13-Sep-2015 00:18:01 Europe/Berlin] PHP Notice:  Undefined index: password in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 11
+[13-Sep-2015 00:18:40 Europe/Berlin] PHP Notice:  Undefined index: password in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 12
+[13-Sep-2015 00:19:49 Europe/Berlin] PHP Fatal error:  Call to undefined method login_library::_update_rights() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 22
+[13-Sep-2015 00:22:50 Europe/Berlin] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 106
+[13-Sep-2015 00:22:50 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 108
+[13-Sep-2015 00:22:50 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 112
+[13-Sep-2015 00:23:05 Europe/Berlin] PHP Fatal error:  Call to undefined method login_library::_update_rights() in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 22
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Notice:  Undefined index: permissions in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 57
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Notice:  Undefined index: T in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 57
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Notice:  Undefined index: S in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'group_id' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 51
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 57
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 57
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 57
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 57
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'group_id' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 51
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 57
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 57
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 61
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 62
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 63
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 64
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 65
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 66
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 80
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 84
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 85
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 85
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 85
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 86
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 86
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 86
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 87
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 87
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 87
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 88
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 88
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 88
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 89
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 89
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 89
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'status' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 80
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 84
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 85
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 85
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 85
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 86
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 86
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 86
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 87
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 87
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'admin' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 87
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 88
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 88
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'parameter' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 88
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'module' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 89
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'right_name' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 89
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Illegal string offset 'icon' in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php on line 89
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 108
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 112
+[13-Sep-2015 00:24:13 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\login_library.php:61) in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 112

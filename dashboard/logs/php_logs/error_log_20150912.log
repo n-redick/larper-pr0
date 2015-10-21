@@ -1,0 +1,15 @@
+[12-Sep-2015 23:46:09 Europe/Berlin] PHP Notice:  Undefined variable: s_username in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[12-Sep-2015 23:46:09 Europe/Berlin] PHP Notice:  Undefined variable: s_password in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[12-Sep-2015 23:46:09 Europe/Berlin] PHP Notice:  Undefined variable: s_email in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[12-Sep-2015 23:46:10 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 108
+[12-Sep-2015 23:46:10 Europe/Berlin] PHP Notice:  Undefined variable: s_parameters in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library.php on line 112
+[12-Sep-2015 23:46:40 Europe/Berlin] PHP Notice:  Undefined variable: s_username in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[12-Sep-2015 23:46:40 Europe/Berlin] PHP Notice:  Undefined variable: s_password in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[12-Sep-2015 23:46:40 Europe/Berlin] PHP Notice:  Undefined variable: s_email in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[12-Sep-2015 23:47:22 Europe/Berlin] PHP Notice:  Undefined variable: s_username in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[12-Sep-2015 23:47:22 Europe/Berlin] PHP Notice:  Undefined variable: s_password in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[12-Sep-2015 23:47:22 Europe/Berlin] PHP Notice:  Undefined variable: s_email in D:\development\xampp\htdocs\larper-pr0\dashboard\core\login\login.php on line 161
+[13-Sep-2015 00:02:57 Europe/Berlin] PHP Warning:  mysql_connect(): MySQL server has gone away in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[13-Sep-2015 00:02:57 Europe/Berlin] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=2364 in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[13-Sep-2015 00:02:57 Europe/Berlin] PHP Warning:  mysql_connect(): MySQL server has gone away in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69
+[13-Sep-2015 00:02:57 Europe/Berlin] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\development\xampp\htdocs\larper-pr0\dashboard\lib\library-files\database_connectors\connector_mysql.php on line 69

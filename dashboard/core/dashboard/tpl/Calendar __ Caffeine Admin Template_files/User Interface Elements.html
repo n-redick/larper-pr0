@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://www.creepypixel.com/demos/caffeine/1.1/ui.html -->
+<html dir="ltr" lang="en-US"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"> 
+
+<title>User Interface Elements :: Caffeine Admin Template</title>
+
+<link rel="stylesheet" href="./User Interface Elements __ Caffeine Admin Template_files/jquery-ui-1.8.18.custom.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./User Interface Elements __ Caffeine Admin Template_files/jquery.jgrowl.css" type="text/css">
+<link rel="stylesheet" href="./User Interface Elements __ Caffeine Admin Template_files/icons.css" type="text/css">
+<link rel="stylesheet" href="./User Interface Elements __ Caffeine Admin Template_files/forms.css" type="text/css">
+<link rel="stylesheet" href="./User Interface Elements __ Caffeine Admin Template_files/tables.css" type="text/css">
+<link rel="stylesheet" href="./User Interface Elements __ Caffeine Admin Template_files/ui.css" type="text/css">
+<link rel="stylesheet" href="./User Interface Elements __ Caffeine Admin Template_files/style.css" type="text/css">
+<link rel="stylesheet" href="./User Interface Elements __ Caffeine Admin Template_files/responsiveness.css" type="text/css">
+
+<!-- jQuery -->
+<script src="./User Interface Elements __ Caffeine Admin Template_files/jquery.min.js"></script>
+<script src="./User Interface Elements __ Caffeine Admin Template_files/jquery-ui.min.js"></script>
+<!-- jgrowl -->
+<script type="text/javascript" src="./User Interface Elements __ Caffeine Admin Template_files/jquery.jgrowl.min.js"></script>
+<!-- Knob -->
+<script type="text/javascript" src="./User Interface Elements __ Caffeine Admin Template_files/jquery.knob.js"></script>
+<!-- SparkLine -->
+<script type="text/javascript" src="./User Interface Elements __ Caffeine Admin Template_files/jquery.sparkline.js"></script>
+
+<!-- Caffeine custom JS -->
+<script type="text/javascript" src="./User Interface Elements __ Caffeine Admin Template_files/custom.js"></script>
+
+<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]--> 
+<!--[if lte IE 7]> <script src="js/IE8.js" type="text/javascript"></script> <![endif]--> 
+<!--[if lt IE 7]> <link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/> <![endif]-->  
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('#apprise-1').click(function() {
+			apprise('Hello, this is an alert!', {'animate': true, 'textOk': 'Close me now!'});
+		});
+		jQuery('#apprise-2').click(function() {
+			apprise('This is a confirmation box!', {'animate': true, 'confirm': true}, function(r) {
+				if (r) { alert('you clicked ok'); }
+				else { alert('you clicked cancel'); }
+			});
+		});
+		jQuery('#apprise-3').click(function() {
+			apprise('Enter your name in this input box!', {'animate': true, 'input': true}, function(r) {
+				if (r) { alert('Your name is '+r); }
+				else { alert('You didnt enter your name'); }
+			});
+		});
+	});
+</script>
+
+<style type="text/css"></style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+
+<body id="index" class="home jqtransformdone">
+	
+    <div id="loading-block" style="display: none;"></div>
+    
+    	<div id="container">
+    
+        <!-- Header -->
+        <header id="header">
+            <figure id="logo"><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html" class="logo"></a></figure>
+            <section id="general-options">
+            	<a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="settings tipsy-header" original-title="Settings"></a>
+                <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="users tipsy-header" original-title="Users"></a>
+                <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="messages tipsy-header" original-title="Messages"></a>
+            </section>
+            <section id="userinfo">
+            	<span class="welcome">Welcome <strong>John Doe</strong>. It's nice having you back</span>
+                <span class="last-login">Last login on June 1st at 11:24hs</span>
+                <div class="profile">
+                	<div class="links">
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#">Profile</a>
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#">Inbox</a>
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/login.html" class="logout">Logout</a>
+                    </div>
+                	<img src="./User Interface Elements __ Caffeine Admin Template_files/profile-pict.jpg" alt="John Doe">
+                </div>
+            </section>
+            <section id="responsive-nav">
+                <div class="jqTransformSelectWrapper" style="z-index: 10; width: 45px;"><div><span style="width: 0px;">General UI</span><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="jqTransformSelectOpen"></a></div><ul style="width: 43px; display: none; visibility: visible; height: 0px; overflow: hidden;"><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="0">Navigate</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="1">Dashboard</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="2">Form Elements</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="3">Grid</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="4" class="selected">General UI</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="5">@Font-Face Icons</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="6">Calendar</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="7">Typography</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="8">Gallery</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" index="9">Tables and Charts</a></li></ul><select id="nav_select" class="jqTransformHidden">
+                	<option value="">Navigate</option>
+                	<option value="dashboard.html">Dashboard</option>
+                    <option value="form-elements.html">Form Elements</option>
+					<option value="grid.html">Grid</option>
+					<option value="ui.html" selected="selected">General UI</option>
+					<option value="icons.html">@Font-Face Icons</option>
+					<option value="calendar.html">Calendar</option>
+					<option value="typography.html">Typography</option>
+					<option value="gallery.html">Gallery</option>
+					<option value="tables.html">Tables and Charts</option>
+                </select></div>
+            </section>
+        </header> <!-- /Header -->
+        
+        <div class="clear"></div>		
+        
+        <!-- Sidebar -->
+        <nav id="sidebar">
+        	<div class="sidebar-top"></div>
+            
+            <h3>Navigate</h3>
+            
+            <!-- Nav menu -->
+            <ul class="nav">
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html">Dashboard</a></li>
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/tables.html">Tables &amp; Charts</a></li>
+                <li class="has-menu"><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#">Forms<span class="plus"></span></a>
+                	<ul class="submenu">
+		                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/form-elements.html">Form elements</a></li>
+                        <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/form-validation.html">Form validation</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/grid.html">Grid</a></li>
+                
+                <li class="has-menu"><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#">UI / UX<span class="plus"></span></a>
+                    <ul class="submenu" style="display: block;">
+                    	<li class="active"><a href="./User Interface Elements __ Caffeine Admin Template_files/User Interface Elements __ Caffeine Admin Template.html">General UI</a></li>
+               			<li><a href="http://www.creepypixel.com/demos/caffeine/1.1/icons.html">Icons</a></li>
+                        <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/calendar.html">Calendar</a></li>
+                        <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/file-upload.html">File upload</a></li>
+                        <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/contact-list.html">Contact list</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/typography.html">Typography</a></li>
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/gallery.html">Gallery</a></li>
+            </ul> <!-- /Nav menu -->
+            
+            <div class="blocks-separator"></div>
+            
+            <h3>Stats</h3>
+            <section class="widgets">
+                
+                <!-- Sidebar Widgets -->
+                <div class="arrow-up">
+                    <span class="title">Sales</span>
+                    <span class="perc"><span data-value="65">65</span>%</span>
+                </div>
+                
+                <div class="arrow-down">
+                    <span class="title">Bounce</span>
+                    <span class="perc"><span data-value="29">29</span>%</span>
+                </div>
+                
+                <div class="arrow-right">
+                    <span class="title">Clients</span>
+                    <span class="perc"><span data-value="0">0</span>%</span>
+                </div>
+                
+                <div class="line-separator"></div>
+                
+                <div class="one-half center">
+	                <div style="display:inline;width:89px;height:89px;"><canvas width="89" height="89px"></canvas><input class="knob" data-width="89" data-height="89" data-fgcolor="#bee058" data-thickness=".2" data-readonly="true" value="35" data-value="35" readonly="readonly" style="width: 48px; height: 29px; position: absolute; vertical-align: middle; margin-top: 29px; margin-left: -68px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 17px; line-height: normal; font-family: Arial; text-align: center; color: rgb(190, 224, 88); padding: 0px; -webkit-appearance: none; background: none;">35</input></div>
+                    <span class="full-width center">Disk Space</span>
+                </div>
+                
+                <div class="one-half center">
+	                <div style="display:inline;width:89px;height:89px;"><canvas width="89" height="89px"></canvas><input class="knob" data-width="89" data-height="89" data-fgcolor="#5479aa" data-thickness=".2" data-readonly="true" value="83" data-value="83" readonly="readonly" style="width: 48px; height: 29px; position: absolute; vertical-align: middle; margin-top: 29px; margin-left: -68px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 17px; line-height: normal; font-family: Arial; text-align: center; color: rgb(84, 121, 170); padding: 0px; -webkit-appearance: none; background: none;">83</input></div>
+                    <span class="full-width center">Bandwidth</span>
+                </div>
+                <!-- /Sidebar Widgets -->
+                
+                <div class="clear"></div>
+                
+            </section>
+        </nav> <!-- Sidebar -->
+
+        <section id="playground">
+        	
+            <!-- Breadcrumb -->
+            <div class="three-fourths breadcrumb">
+            	<span><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="icon entypo home"></a></span>
+                <span class="middle"></span>
+                <span><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#">UI &amp; UX</a></span>
+                <span class="middle"></span>
+                <span><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#">UI Elements</a></span>
+                <span class="end"></span>
+            </div> <!-- /Breadcrumb -->
+            
+            <!-- Search box -->
+            <div class="one-fourth searchbar">
+            	<div class="box no-bg">
+	            	<div class="search-box closed"><input type="text"><span class="icon awesome search"></span></div>
+                </div>
+            </div> <!-- /Search box-->
+            
+            <div class="clear"></div>
+            
+            <section class="one-third">
+            	<div class="box no-bg">
+                    <h3>Buttons</h3>
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button large">class .large</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button medium">class .medium</a> &nbsp;&nbsp;&nbsp;
+	            	<a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button tiny">class .tiny</a>
+                    <div class="clear">&nbsp;</div>
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button light large">class .light.large</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button light medium">class .light.medium</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button light tiny">class .light.tiny</a>
+                    <div class="clear">&nbsp;</div>
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button blue large">class .blue.large</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button blue medium">class .blue.medium</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button blue tiny">class .blue.tiny</a>
+                    <div class="clear">&nbsp;</div>
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button red large">class .red.large</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button red medium">class .red.medium</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button red tiny">class .red.tiny</a>
+                    <div class="clear">&nbsp;</div>
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button green large">class .green.large</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button green medium">class .green.medium</a> &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button green tiny">class .green.tiny</a>
+                </div>
+            </section>
+            
+            <section class="one-third">
+            	<div class="box no-bg">
+                	<h3>Button container</h3>
+                    <div class="button-container"><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button medium">button</a></div> &nbsp;&nbsp;&nbsp;
+                    <div class="button-container"><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button light medium">button</a></div> &nbsp;&nbsp;&nbsp;
+                    <div class="button-container"><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button blue medium">button</a></div> &nbsp;&nbsp;&nbsp;
+                    <div class="button-container"><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button red medium">button</a></div> &nbsp;&nbsp;&nbsp;
+                    <div class="button-container"><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button green medium">button</a></div>
+                    <div class="clear">&nbsp;</div>
+                    <h3>Button sets</h3>
+                    <div class="button-container">
+                        <div class="button-set">
+                            <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button large first">Prev</a>
+                            <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button large">1</a>
+                            <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button large">2</a>
+                            <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button large">3</a>
+                            <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button large">4</a>
+                            <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button large last">Next</a>
+                        </div>
+                    </div>
+                    <div class="clear">&nbsp;</div>
+                    <div class="button-set">
+                    	<a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button tiny blue first"><span class="icon entypo first"></span></a>
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button tiny blue"><span class="icon entypo fast-backward"></span></a>
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button tiny blue"><span class="icon entypo stop"></span></a>
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button tiny blue"><span class="icon entypo fast-forward"></span></a>
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button tiny blue last"><span class="icon entypo last"></span></a>
+                    </div>
+                    <div class="clear">&nbsp;</div>
+                    <div class="button-container">
+                    	<div class="button-set">
+                        	<a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button red first">&lt;</a>
+                            <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button red last">&gt;</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="one-third">
+            	<div class="box no-bg">
+                    <h3>Buttons with icons</h3>
+            		<a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button blue medium"><span class="icon awesome facebook"></span> share</a> 
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button red medium"><span class="icon awesome pinterest-sign"></span> pin it!</a> 
+                    <div class="clear">&nbsp;</div>
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button green tiny"><span class="icon entypo plus"></span> add</a> 
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button red tiny"><span class="icon entypo minus"></span> delete</a> <br>
+                    <div class="clear">&nbsp;</div>
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html#" class="button"><span class="icon entypo chat"></span> Leave a comment</a>
+                </div>
+            </section>
+            
+            <div class="clear"></div>
+            
+            <section class="one-third">
+            	<div class="box no-bg">
+                    <h3>Vertical progress bars</h3>
+                    
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="82" style="height: 186.96px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">82%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="45" style="height: 102.6px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">45%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="67" style="height: 152.76px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">67%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="39" style="height: 88.92px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">39%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="50" style="height: 114px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">50%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="78" style="height: 177.84px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">78%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="100" style="height: 228px;"></span>
+                        <span class="label" style="top: 114.5px; left: 8px;">100%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="62" style="height: 141.36px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">62%</span>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section class="one-third">
+            	<div class="box no-bg">
+                    <h3>Horizontal progress bars</h3>
+                    
+                    <div class="progress-bar" data-size="400" style="width: 400px;">
+                    	<span class="complete" data-progress="87" style="width: 337.56px;"></span>
+                        <span class="label" style="left: 187.5px;">87%</span>
+                    </div>
+                    <div class="clear">&nbsp;</div>
+                    <div class="progress-bar red" data-size="440" style="width: 440px;">
+                    	<span class="complete" data-progress="100" style="width: 428px;"></span>
+                        <span class="label" style="left: 204px;">100%</span>
+                    </div>
+                    <div class="clear">&nbsp;</div>
+                    <div class="progress-bar light" data-size="300" style="width: 300px;">
+                    	<span class="complete" data-progress="59" style="width: 169.92px;"></span>
+                        <span class="label" style="left: 137.5px;">59%</span>
+                    </div>
+                    <div class="clear">&nbsp;</div>
+                    <div class="progress-bar green" data-size="340" style="width: 340px;">
+                    	<span class="complete" data-progress="100" style="width: 328px;"></span>
+                        <span class="label" style="left: 154px;">100%</span>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <div class="one-third">
+            	<div class="box">
+                	<div class="inner">
+                    	<div class="titlebar">Tabs</div>
+                        
+                        <div class="tabs-set">
+                            <ul class="tabs">
+                                <li class="active">Tab 1</li>
+                                <li>Tab 2</li>
+                                <li>Tab 3</li>
+                            </ul>
+                            <div class="tab-panel" style="display: block;">
+                                <p>Morbi congue, ligula a vehicula molestie, diam elit pellentesque dolor, imperdiet venenatis est libero at sem. Donec ullamcorper hendrerit leo, nec commodo nisi luctus a. Proin velit sapien, porta id interdum sed, cursus quis sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus venenatis dictum metus, et elementum eros tempus sed. Aliquam erat volutpat.</p>
+                            </div>
+                            <div class="tab-panel" style="display: none;">
+                                <p>Cras fringilla luctus feugiat. Fusce auctor, nisi id adipiscing molestie, sem quam elementum nibh, et volutpat erat mi id neque. Vestibulum arcu nunc, porttitor molestie rhoncus ac, mattis sed massa. Pellentesque quis ligula ut nisi auctor luctus vel et tellus. Vestibulum a metus eu eros congue malesuada. Integer justo risus, ornare a ultrices nec, rutrum sagittis justo. Donec at turpis magna, eget semper odio. In tempus, nunc a mattis rutrum, enim tellus cursus elit, id lacinia elit justo sit amet justo. Aenean pharetra odio sit amet tortor placerat sagittis. Phasellus auctor interdum diam, ac tempor urna sagittis sit amet.</p>
+                            </div>
+                            <div class="tab-panel" style="display: none;">
+                                <p>Sed vitae sollicitudin velit. Phasellus eget ultrices ipsum. Nulla lacinia velit non elit porta id mollis nisl pharetra. Fusce viverra suscipit lacus in gravida. Nulla facilisis, mi non tincidunt vulputate, magna est tincidunt magna, vel tincidunt leo purus eu massa. In sollicitudin sapien quis purus molestie ornare. Nunc eget felis lectus, ac pharetra quam.</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+            <div class="one-third">
+            	<div class="box no-bg widget-set">
+                	<h3>jGrowl Notifications</h3>
+                	<input type="button" onclick="jQuery(&#39;#bottom-left&#39;).jGrowl(&#39;Bottom Left!&#39;);" class="button blue" value="Bottom Left">
+                    <input type="button" onclick="jQuery(&#39;#bottom-right&#39;).jGrowl(&#39;Bottom Right!&#39;);" class="button blue" value="Bottom Right">
+                    <input type="button" onclick="jQuery(&#39;#top-right&#39;).jGrowl(&#39;Top Right!&#39;);" class="button blue" value="Top Right">
+                    <input type="button" onclick="jQuery(&#39;#top-left&#39;).jGrowl(&#39;Top Left!&#39;);" class="button blue" value="Top Left">
+                </div>
+            </div>
+            <div class="one-third">
+            	<div class="box">
+                	<div class="inner">
+                    	<div class="titlebar">Loading spinners <span class="fright"><img src="./User Interface Elements __ Caffeine Admin Template_files/4.gif" alt=""></span></div>
+                        <div class="contents center">
+                        	<img src="./User Interface Elements __ Caffeine Admin Template_files/1.gif" alt="">&nbsp;&nbsp;
+                            <img src="./User Interface Elements __ Caffeine Admin Template_files/2.gif" alt="">&nbsp;&nbsp;
+                            <img src="./User Interface Elements __ Caffeine Admin Template_files/3.gif" alt="">&nbsp;&nbsp; 
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/4.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/5.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/6.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/7.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/8.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/9.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/10.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/11.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/12.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/13.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/14.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/15.gif" alt="">&nbsp;&nbsp;
+							<img src="./User Interface Elements __ Caffeine Admin Template_files/16.gif" alt=""> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="one-third">
+            	<div class="box no-bg widget-set">
+                	<h3>Modal alerts</h3>
+                	<input type="button" class="button red" id="apprise-1" value="Alert box">
+					<input type="button" class="button red" id="apprise-2" value="Confirm box">
+					<input type="button" class="button red" id="apprise-3" value="Prompt box">
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+            <div class="full-width">
+                <div class="box no-bg widget-set">
+                    <h3>Widgets</h3>
+                    <ul>
+                        <li class="widget arrow-up">
+                            <div class="image"></div>
+                            <label>65%</label>
+                            <span>Sales</span>
+                        </li>
+                        <li class="widget arrow-down">
+                            <div class="image"></div>
+                            <label>5%</label>
+                            <span>Earnings</span>
+                        </li>
+                        <li class="widget arrow-right">
+                            <div class="image"></div>
+                            <label>0%</label>
+                            <span>Votes</span>
+                        </li>
+                        <li class="widget users">
+                            <div class="image"></div>
+                            <label>4</label>
+                            <span>New Users</span>
+                        </li>
+                        <li class="widget comments">
+                            <div class="image"></div>
+                            <label>35</label>
+                            <span>Comments</span>
+                        </li>
+                        <li class="widget orders">
+                            <div class="image"></div>
+                            <label>7</label>
+                            <span>New Orders</span>
+                        </li>
+                        <li class="widget sparkline green">
+                            <div class="sparkline"><canvas width="52" height="35" style="display: inline-block; width: 52px; height: 35px; vertical-align: top;"></canvas></div>
+                            <label>Visits</label>
+                            <span>last 7 days</span>
+                        </li>
+                        <li class="widget sparkline red">
+                            <div class="sparkline" data-color="#bd5151"><canvas width="52" height="35" style="display: inline-block; width: 52px; height: 35px; vertical-align: top;"></canvas></div>
+                            <label>Attacks</label>
+                            <span>last 7 days</span>
+                        </li>
+                        <li class="widget sparkline blue">
+                            <div class="sparkline" data-color="#5479aa"><canvas width="52" height="35" style="display: inline-block; width: 52px; height: 35px; vertical-align: top;"></canvas></div>
+                            <label>Updates</label>
+                            <span>last 7 days</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+            <div class="full-width right">
+	<div class="box no-bg">
+    	<div class="line-separator"></div>
+        
+		<span class="copyright">by <a href="http://www.creepypixel.com/" class="creepy-logo fright"></a></span>
+    </div>
+</div>        </section>
+        
+        <div id="bottom-right" class="jGrowl bottom-right"></div>
+    	<div id="bottom-left" class="jGrowl bottom-left"></div>
+        <div id="top-right" class="jGrowl top-right"></div>
+    	<div id="top-left" class="jGrowl top-left"></div>    </div>
+    
+ 
+</body></html>

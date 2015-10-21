@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html -->
+<html dir="ltr" lang="en-US"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"> 
+
+<title>Dashboard :: Caffeine Admin Template</title>
+
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/jquery-ui-1.8.18.custom.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/jquery.jgrowl.css" type="text/css">
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/jquery.jqplot.css" type="text/css">
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/icons.css" type="text/css">
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/forms.css" type="text/css">
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/tables.css" type="text/css">
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/ui.css" type="text/css">
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/style.css" type="text/css">
+<link rel="stylesheet" href="./Dashboard __ Caffeine Admin Template_files/responsiveness.css" type="text/css">
+
+<!-- jQuery -->
+<script src="./Dashboard __ Caffeine Admin Template_files/jquery.min.js"></script>
+<script src="./Dashboard __ Caffeine Admin Template_files/jquery-ui.min.js"></script>
+<!-- jqPlot -->
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jqplot.barRenderer.min.js"></script>
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jqplot.highlighter.min.js"></script>
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jqplot.cursor.min.js"></script> 
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jqplot.pointLabels.min.js"></script>
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jqplot.pieRenderer.min.js"></script> 
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jqplot.donutRenderer.min.js"></script>
+<!-- jgrowl -->
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jquery.jgrowl.min.js"></script>
+<!-- Knob -->
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jquery.knob.js"></script>
+<!-- WYSIHTML5 -->
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jquery.wysihtml5.js"></script>
+<!-- SparkLine -->
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/jquery.sparkline.js"></script><style type="text/css"></style>
+
+<!-- Caffeine custom JS -->
+<script type="text/javascript" src="./Dashboard __ Caffeine Admin Template_files/custom.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		// jGrowl
+		jQuery('#jgrowl').jGrowl('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisl justo, laoreet sit amet egestas id, dapibus eu urna. Suspendisse augue nulla, tincidunt rhoncus lobortis quis, lobortis ac sem. Aliquam vehicula lobortis erat eget adipiscing. Cum sociis natoque penatibus et magnis dis parturient montes');
+		jQuery('#jgrowl').jGrowl('Aliquam vehicula lobortis erat eget adipiscing. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+		jQuery('#jgrowl').jGrowl('Suspendisse fringilla dui in dolor volutpat quis congue lectus tempor. Nunc pulvinar ipsum eget neque consequat a viverra elit interdum.');
+	});
+</script>
+
+<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]--> 
+<!--[if lte IE 7]> <script src="js/IE8.js" type="text/javascript"></script> <![endif]--> 
+<!--[if lt IE 7]> <link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/> <![endif]--> 
+
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+
+<body id="index" class="home wysihtml5-supported jqtransformdone">
+    
+    <div id="loading-block" style="display: none;"></div> <!-- Loading block -->
+    
+    <!-- Container -->
+    <div id="container">
+    
+    	<!-- Header -->
+        <header id="header">
+            <figure id="logo"><a href="./Dashboard __ Caffeine Admin Template_files/Dashboard __ Caffeine Admin Template.html" class="logo"></a></figure>
+            <section id="general-options">
+            	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="settings tipsy-header" original-title="Settings"></a>
+                <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="users tipsy-header" original-title="Users"></a>
+                <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="messages tipsy-header" original-title="Messages"></a>
+            </section>
+            <section id="userinfo">
+            	<span class="welcome">Welcome <strong>John Doe</strong>. It's nice having you back</span>
+                <span class="last-login">Last login on June 1st at 11:24hs</span>
+                <div class="profile">
+                	<div class="links">
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Profile</a>
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Inbox</a>
+                        <a href="http://www.creepypixel.com/demos/caffeine/1.1/login.html" class="logout">Logout</a>
+                    </div>
+                	<img src="./Dashboard __ Caffeine Admin Template_files/profile-pict.jpg" alt="John Doe">
+                </div>
+            </section>
+            <section id="responsive-nav">
+                <div class="jqTransformSelectWrapper" style="z-index: 10; width: 45px;"><div><span style="width: 0px;">Dashboard</span><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="jqTransformSelectOpen"></a></div><ul style="width: 43px; display: none; visibility: visible; height: 0px; overflow: hidden;"><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="0">Navigate</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="1" class="selected">Dashboard</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="2">Form Elements</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="3">Grid</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="4">General UI</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="5">@Font-Face Icons</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="6">Calendar</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="7">Typography</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="8">Gallery</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="9">Tables and Charts</a></li></ul><select id="nav_select" class="jqTransformHidden">
+                	<option value="">Navigate</option>
+                	<option value="dashboard.html" selected="selected">Dashboard</option>
+                    <option value="form-elements.html">Form Elements</option>
+					<option value="grid.html">Grid</option>
+					<option value="ui.html">General UI</option>
+					<option value="icons.html">@Font-Face Icons</option>
+					<option value="calendar.html">Calendar</option>
+					<option value="typography.html">Typography</option>
+					<option value="gallery.html">Gallery</option>
+					<option value="tables.html">Tables and Charts</option>
+                </select></div>
+            </section>
+        </header> <!-- /Header -->
+        
+        <div class="clear"></div>		
+        
+        <!-- Sidebar -->
+        <nav id="sidebar">
+        	<div class="sidebar-top"></div>
+            
+            <h3>Navigate</h3>
+            
+            <!-- Nav menu -->
+            <ul class="nav">
+                <li class="active"><a href="./Dashboard __ Caffeine Admin Template_files/Dashboard __ Caffeine Admin Template.html">Dashboard<span class="arrow"></span></a></li>
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/tables.html">Tables &amp; Charts</a></li>
+                <li class="has-menu"><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Forms<span class="plus"></span></a>
+                	<ul class="submenu">
+		                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/form-elements.html">Form elements</a></li>
+                        <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/form-validation.html">Form validation</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/grid.html">Grid</a></li>
+                
+                <li class="has-menu"><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">UI / UX<span class="plus"></span></a>
+                    <ul class="submenu">
+                    	<li><a href="http://www.creepypixel.com/demos/caffeine/1.1/ui.html">General UI</a></li>
+               			<li><a href="http://www.creepypixel.com/demos/caffeine/1.1/icons.html">Icons</a></li>
+                        <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/calendar.html">Calendar</a></li>
+                        <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/file-upload.html">File upload</a></li>
+                        <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/contact-list.html">Contact list</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/typography.html">Typography</a></li>
+                <li><a href="http://www.creepypixel.com/demos/caffeine/1.1/gallery.html">Gallery</a></li>
+            </ul> <!-- /Nav menu -->
+            
+            <div class="blocks-separator"></div>
+            
+            <h3>Stats</h3>
+            <section class="widgets">
+                
+                <!-- Sidebar Widgets -->
+                <div class="arrow-up">
+                    <span class="title">Sales</span>
+                    <span class="perc"><span data-value="65">65</span>%</span>
+                </div>
+                
+                <div class="arrow-down">
+                    <span class="title">Bounce</span>
+                    <span class="perc"><span data-value="29">29</span>%</span>
+                </div>
+                
+                <div class="arrow-right">
+                    <span class="title">Clients</span>
+                    <span class="perc"><span data-value="0">0</span>%</span>
+                </div>
+                
+                <div class="line-separator"></div>
+                
+                <div class="one-half center">
+	                <div style="display:inline;width:89px;height:89px;"><canvas width="89" height="89px"></canvas><input class="knob" data-width="89" data-height="89" data-fgcolor="#bee058" data-thickness=".2" data-readonly="true" value="35" data-value="35" readonly="readonly" style="width: 48px; height: 29px; position: absolute; vertical-align: middle; margin-top: 29px; margin-left: -68px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 17px; line-height: normal; font-family: Arial; text-align: center; color: rgb(190, 224, 88); padding: 0px; -webkit-appearance: none; background: none;">35</input></div>
+                    <span class="full-width center">Disk Space</span>
+                </div>
+                
+                <div class="one-half center">
+	                <div style="display:inline;width:89px;height:89px;"><canvas width="89" height="89px"></canvas><input class="knob" data-width="89" data-height="89" data-fgcolor="#5479aa" data-thickness=".2" data-readonly="true" value="83" data-value="83" readonly="readonly" style="width: 48px; height: 29px; position: absolute; vertical-align: middle; margin-top: 29px; margin-left: -68px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 17px; line-height: normal; font-family: Arial; text-align: center; color: rgb(84, 121, 170); padding: 0px; -webkit-appearance: none; background: none;">83</input></div>
+                    <span class="full-width center">Bandwidth</span>
+                </div>
+                <!-- /Sidebar Widgets -->
+                
+                <div class="clear"></div>
+                
+            </section>
+        </nav> <!-- Sidebar -->
+        
+        <div id="jgrowl" class="bottom-right jGrowl"><div class="jGrowl-notification"></div><div class="jGrowl-closer highlight ui-corner-all default" style="display: block; opacity: 0.378363;">[ close all ]</div></div>
+        
+        <!-- Playground -->
+        <section id="playground">
+        	
+            <!-- Breadcrumb -->
+            <div class="three-fourths breadcrumb">
+            	<span><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo home"></a></span>
+                <span class="middle"></span>
+                <span><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Caffeine Admin Template</a></span>
+                <span class="middle"></span>
+                <span><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Dashboard</a></span>
+                <span class="end"></span>
+            </div> <!-- /Breadcrumb -->
+            
+            <!-- Search box -->
+            <div class="one-fourth searchbar">
+            	<div class="box no-bg">
+	            	<div class="search-box closed"><input type="text"><span class="icon awesome search"></span></div>
+                </div>
+            </div> <!-- /Search box-->
+            
+            <div class="clear"></div>
+            
+            <!-- Playground Widgets -->
+            <div class="full-width widget-set">
+            	<div class="box no-bg">
+                	<ul>
+                        <li class="widget arrow-up">
+                            <div class="image"></div>
+                            <label>65%</label>
+                            <span>Sales</span>
+                        </li>
+                        <li class="widget arrow-down">
+                            <div class="image"></div>
+                            <label>5%</label>
+                            <span>Earnings</span>
+                        </li>
+                        <li class="widget arrow-right">
+                            <div class="image"></div>
+                            <label>0%</label>
+                            <span>Votes</span>
+                        </li>
+                        <li class="widget users">
+                            <div class="image"></div>
+                            <label>4</label>
+                            <span>New Users</span>
+                        </li>
+                        <li class="widget comments">
+                            <div class="image"></div>
+                            <label>35</label>
+                            <span>Comments</span>
+                        </li>
+                        <li class="widget orders">
+                            <div class="image"></div>
+                            <label>7</label>
+                            <span>New Orders</span>
+                        </li>
+                        <li class="widget sparkline green">
+                            <div class="sparkline" data-color="#63d844"><canvas width="52" height="35" style="display: inline-block; width: 52px; height: 35px; vertical-align: top;"></canvas></div>
+                            <label>Visits</label>
+                            <span>last 7 days</span>
+                        </li>
+                        <li class="widget sparkline red">
+                            <div class="sparkline" data-color="#bd5151"><canvas width="52" height="35" style="display: inline-block; width: 52px; height: 35px; vertical-align: top;"></canvas></div>
+                            <label>Attacks</label>
+                            <span>last 7 days</span>
+                        </li>
+                        <li class="widget sparkline blue">
+                            <div class="sparkline" data-color="#5479aa"><canvas width="52" height="35" style="display: inline-block; width: 52px; height: 35px; vertical-align: top;"></canvas></div>
+                            <label>Updates</label>
+                            <span>last 7 days</span>
+                        </li>
+                        
+                    </ul>
+                </div> 
+                
+                <div class="clear"></div>
+                <div class="line-separator"></div>
+                <div class="clear">&nbsp;</div>
+                
+            </div> <!-- /Playground Widgets -->
+            
+            
+            <!-- Grid Contents -->
+            <div class="one-third">
+            	<div class="box no-bg">
+	            	<h1>Welcome to your Caffeine</h1>
+                    <p><strong>Caffeine</strong> is a simple, responsive, dark themed administration panel template to be used as base design for your custom made site's backend. <strong>Some of its features are:</strong></p>
+                    <ul class="no-bullets">
+                        <li><span class="white icon awesome leaf"></span>Fully reskined standard form elements</li>
+                        <li><span class="white icon entypo compass"></span>8+ special form elements include <strong>HTML5 WYSIWYG editor</strong></li>
+                        <li><span class="white icon awesome table"></span>Static and dynamic tables</li>
+                        <li><span class="white icon awesome bar-chart"></span>Animated charts powered by <strong>jqPlot</strong></li>
+                        <li><span class="white icon awesome font"></span><strong>400+ @face-font icons</strong></li>
+                        <li><span class="white icon awesome magic"></span>Incredible CSS3 buttons in 4 different colors and 3 different sizes</li>
+                        <li><span class="white icon entypo grid"></span><strong>Responsibe GRID</strong> system</li>
+                        <li><span class="white icon entypo time"></span>Over 10 different widgets to place on your sidebar or content area</li>
+                        <li><span class="white icon entypo calendar"></span>Dynamic event calendar</li>
+                        <li><span class="white icon entypo upload-2"></span><strong>AJAX file uploader</strong></li>
+                        <li><span class="icon entypo dots-three"></span>and a lot more</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="two-thirds">
+            	<div class="box">
+                	<div class="inner">
+                    	<div class="titlebar"><span class="icon awesome white bar-chart"></span> <span class="w-icon">Yearly Visitors</span></div>
+                        <div class="contents">
+                            <div id="chart_dashboard" style="width: 978px; height: 300px; position: relative;" class="jqplot-target"><canvas width="978" height="300" class="jqplot-base-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><div class="jqplot-title" style="height: 0px; width: 0px;"></div><div class="jqplot-axis jqplot-xaxis" style="position: absolute; width: 978px; height: 12px; left: 0px; bottom: 0px;"><div class="jqplot-xaxis-tick" style="position: absolute; left: 51.3158px;">2002.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 92.6316px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 99.9474px;">2002.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 141.263px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 148.579px;">2003.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 189.895px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 197.211px;">2003.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 238.526px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 245.842px;">2004.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 287.158px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 294.474px;">2004.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 335.789px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 343.105px;">2005.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 384.421px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 391.737px;">2005.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 433.053px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 440.368px;">2006.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 481.684px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 489px;">2006.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 530.316px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 537.632px;">2007.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 578.947px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 586.263px;">2007.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 627.579px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 634.895px;">2008.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 676.211px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 683.526px;">2008.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 724.842px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 732.158px;">2009.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 773.474px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 780.789px;">2009.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 822.105px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 829.421px;">2010.0</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 870.737px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 878.053px;">2010.5</div><div class="jqplot-xaxis-tick" style="position: absolute; left: 919.368px;"></div><div class="jqplot-xaxis-tick" style="position: absolute; left: 926.684px;">2011.0</div></div><div class="jqplot-axis jqplot-yaxis" style="position: absolute; height: 300px; width: 34px; left: 0px; top: 0px;"><div class="jqplot-yaxis-tick" style="position: absolute; top: 272px;">0</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 205px;">5,000</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 138px;">10,000</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 71px;">15,000</div><div class="jqplot-yaxis-tick" style="position: absolute; top: 4px;">20,000</div></div><canvas width="978" height="300" class="jqplot-grid-canvas" style="position: absolute; left: 0px; top: 0px;"></canvas><canvas width="924" height="268" class="jqplot-series-shadowCanvas" style="position: absolute; left: 44px; top: 10px; display: block;"></canvas><canvas width="924" height="268" class="jqplot-series-canvas" style="position: absolute; left: 44px; top: 10px; display: block;"></canvas><canvas width="924" height="268" class="jqplot-highlight-canvas" style="position: absolute; left: 44px; top: 10px;"></canvas><div class="jqplot-highlighter-tooltip" style="position: absolute; left: 435.368px; top: 83.11px; display: none;">12,100</div><div class="jqplot-cursor-tooltip" style="position: absolute; display: none;"></div><canvas width="924" height="268" class="jqplot-lineRenderer-highlight-canvas" style="position: absolute; left: 44px; top: 10px;"></canvas><canvas width="924" height="268" class="jqplot-event-canvas" style="position: absolute; left: 44px; top: 10px;"></canvas></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            <div class="one-third quick-post">
+            	<div class="box">
+                	<div class="inner">
+                    	<div class="titlebar"><span>Quick Post</span> <span class="fright highlight blue">News</span></div>
+                        <div id="wysihtml5-toolbar" class="wysihtml5-toolbar">
+                                <a data-wysihtml5-command="bold" title="CTRL+B" href="javascript:;" unselectable="on"><span class="icon awesome bold"></span></a>
+                                <a data-wysihtml5-command="italic" title="CTRL+I" href="javascript:;" unselectable="on"><span class="icon awesome italic"></span></a>
+                                <a data-wysihtml5-command="createLink" href="javascript:;" unselectable="on"><span class="icon awesome link"></span></a>
+                                <a data-wysihtml5-command="insertImage" href="javascript:;" unselectable="on"><span class="icon awesome picture"></span></a> |
+                                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" href="javascript:;" unselectable="on">H1</a>
+                                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" href="javascript:;" unselectable="on">H2</a>
+                                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3" href="javascript:;" unselectable="on">H3</a>
+                                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4" href="javascript:;" unselectable="on">H4</a>
+                                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5" href="javascript:;" unselectable="on">H5</a>
+                                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h6" href="javascript:;" unselectable="on">H6</a>
+                            
+                                <div data-wysihtml5-dialog="createLink" style="display: none;">
+                                    <label> 
+                                        Link:
+                                        <input data-wysihtml5-dialog-field="href" value="http://">
+                                    </label>
+                                    <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
+                                </div>
+                            
+                                <div data-wysihtml5-dialog="insertImage" style="display: none;">
+                                    <label>
+                                        Image:
+                                        <input data-wysihtml5-dialog-field="src" value="http://">
+                                    </label>
+                                    <label>
+                                        Align:
+                                        <div class="jqTransformSelectWrapper" style="z-index: 9; width: 45px;"><div><span style="width: 0px;">default</span><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="jqTransformSelectOpen"></a></div><ul style="width: 43px; display: none; visibility: visible; height: 0px; overflow: hidden;"><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="0" class="selected">default</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="1">left</a></li><li><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" index="2">right</a></li></ul><select data-wysihtml5-dialog-field="className" class="jqTransformHidden">
+                                            <option value="" selected="selected">default</option>
+                                            <option value="wysiwyg-float-left">left</option>
+                                            <option value="wysiwyg-float-right">right</option>
+                                        </select></div>
+                                    </label>
+                                    <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
+                                </div>
+                            </div>
+                            <div class="wysihtml5-contents">
+                            	<textarea id="textarea" style="display: none;"></textarea><input type="hidden" name="_wysihtml5_mode" value="1"><iframe class="wysihtml5-sandbox" security="restricted" allowtransparency="true" frameborder="0" width="0" height="0" marginwidth="0" marginheight="0" style="border-collapse: separate; border: 0px none rgb(187, 187, 187); clear: none; display: block; float: left; margin: 0px 10px 0px 0px; outline: rgb(187, 187, 187) none 0px; outline-offset: 0px; padding: 0px; position: static; top: auto; left: auto; right: auto; bottom: auto; z-index: auto; vertical-align: baseline; text-align: start; box-sizing: content-box; box-shadow: rgba(0, 0, 0, 0.0470588) 0px 0px 19px 7px; border-radius: 0px; width: 456.984px; height: 200px; background-color: rgba(0, 0, 0, 0);"></iframe>
+                            </div>
+                            
+                            <div class="clear"></div>
+                            
+                            <div class="bar-big">
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="Reset">
+                            </div>	
+                   	</div>
+                </div>
+            </div>
+            
+            <div class="one-third">
+            	<div class="box no-bg">
+                	<h2>Alerts <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button tiny fright tipsy-trigger" original-title="Reload alerts"><span class="icon entypo reload-CW"></span></a></h2>
+                    <ul class="reminder">
+                    	<li><span class="icon entypo calendar"></span> <label>John Doe's birthday</label> <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button blue fright">Contact</a></li>
+                        <li><span class="icon entypo upload-2"></span> <label><span class="number">14</span> new uploads</label> <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button green fright">Go</a></li>
+                        <li><span class="icon entypo chat"></span> <label><span class="number">3</span> new support tickets</label> <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button green fright">Go</a></li>
+                        <li><span class="icon entypo contact"></span> <label><span class="number">22</span> new users</label> <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button red fright">View list</a></li>
+                        <li><span class="icon awesome shopping-cart"></span> <label><span class="number">2</span> pending orders</label> <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button green fright">Go</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="one-third">
+            	<div class="box no-bg">
+                	<h2>New Comments <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button blue tiny fright">See all comments</a></h2>
+                	<table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th scope="col">User</th>
+                                <th scope="col">Post</th>
+                                <th scope="col">Status</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>314</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight yellow">pending</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>351</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight yellow">pending</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>321</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight red">rejected</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>436</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight green">accepted</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>543</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight green">accepted</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>351</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight yellow">pending</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>321</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight red">rejected</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>436</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight green">accepted</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>543</td>
+                                <td>John Doe</td>
+                                <td><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#">Lorem ipsum...</a></td>
+                                <td class="center"><span class="highlight green">accepted</span></td>
+                                <td class="center">
+                                	<a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon awesome heart tipsy-trigger" original-title="Set is as interesting"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo star-2 tipsy-trigger" original-title="Set it as featured"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo cancel tipsy-trigger" original-title="Reject"></a>
+                                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="icon entypo thumbs-up tipsy-trigger" original-title="Accept"></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+            
+            <div class="one-fourth">
+            	<div class="box no-bg">
+                	<h2>Activity <span class="button-set fright"><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button first blue tiny tipsy-trigger" original-title="Previous"><span class="icon awesome chevron-left"></span></a><a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button last blue tiny tipsy-trigger" original-title="Next"><span class="icon awesome chevron-right"></span></a></span></h2>
+                    <ul class="reminder">
+                    	<li><strong>John Doe deleted a product</strong> <span class="fright highlight">4 minutes ago</span></li>
+                        <li><strong>John Doe edited a post</strong> <span class="fright highlight">an hour ago</span></li>
+                        <li><strong>Frank Miller registered</strong> <span class="fright highlight">three hours ago</span></li>
+                        <li><strong>John Doe deleted a post</strong> <span class="fright highlight">yesterday</span></li>
+                        <li><strong>Will Smith deleted a post</strong> <span class="fright highlight">2 days ago</span></li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+            <div class="one-half">
+                <div class="box no-bg">
+                    <h2>In libero tortor</h2>
+                    <p> Donec faucibus adipiscing magna, vitae blandit nisi mollis vel. Maecenas non tortor mi. Vivamus ac lectus magna, nec pharetra diam. Proin ac sem non sapien viverra pulvinar. Aenean facilisis sem quis libero viverra quis tincidunt erat vulputate. Curabitur porta urna sed lacus vestibulum tincidunt sit amet ut urna. Integer at dolor sed nulla iaculis luctus non vitae sapien. Integer nec ante blandit tortor posuere ullamcorper. Curabitur consequat nunc et ipsum lacinia fringilla. Maecenas semper condimentum mauris, vitae iaculis arcu tempus at. Proin ante odio, adipiscing vestibulum luctus sed, rhoncus vel tellus.</p>
+                    <p>Praesent mattis ultrices lorem. Proin vel lectus et justo pharetra scelerisque. Sed nibh purus, adipiscing non bibendum sed, rutrum a urna. Phasellus ut tellus vehicula est fermentum faucibus id ut arcu. Aliquam ut mauris neque. Pellentesque eget augue vel lacus hendrerit laoreet et nec mauris. Sed tempus dapibus quam a elementum. </p>
+                    <a href="http://www.creepypixel.com/demos/caffeine/1.1/dashboard.html#" class="button tiny red fright">Read more →</a>
+                </div>
+            </div>
+            
+            <div class="one-fourth">
+            	<div class="box no-bg">
+                	<h3>Return rate</h3>
+                	<div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="82" style="height: 186.96px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">82%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="45" style="height: 102.6px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">45%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="67" style="height: 152.76px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">67%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="39" style="height: 88.92px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">39%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="50" style="height: 114px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">50%</span>
+                    </div>
+                    <div class="progress-bar vertical blue" data-size="240" style="height: 240px;">
+                    	<span class="complete" data-progress="78" style="height: 177.84px;"></span>
+                        <span class="label" style="top: 114.5px; left: 11px;">78%</span>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+			<!-- Copyright / Footer -->
+            <div class="full-width right">
+				<div class="box no-bg">
+    				<div class="line-separator"></div>
+					<span class="copyright">by <a href="http://www.creepypixel.com/" class="creepy-logo fright"></a></span>
+                </div>
+            </div><!-- /Copyright / Footer -->
+            
+        </section> <!-- /Playground -->
+        
+    </div> <!-- /Container -->
+    
+ 
+</body></html>
